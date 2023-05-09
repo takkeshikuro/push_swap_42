@@ -1,7 +1,7 @@
 # push_swap_42
 push_swap is a 42 school algorithm project where we must sort a given list of random numbers with a limited set of instructions, using the lowest possible number of actions.
 
-My program is working with a calculated chunks algorithm, pushing to the stack B chunk by chunk where one is a group of size_of_stack divided by 5 (or 10 if this number exceeds 200). When every chunks are pushed into B, all that remains is to sort the biggest chunk by pushing back to A.
+My program is working with a calculated chunks algorithm, pushing to the stack B chunk by chunk where one is a group of size_of_stack divided by 5 (or 10 if this number exceeds 200). When every chunks are pushed into B, all that remains is to sort the list by pushing back to A every single value the biggest to the lowest knowing that the stack B is already pre-sorted.
 
 # Rules 
 The program is only allowed two stacks to work with, stack A and stack B. All the numbers are initially added to stack A, and B is empty.
